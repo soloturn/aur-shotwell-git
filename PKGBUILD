@@ -11,7 +11,7 @@ depends=('libgee' 'webkit2gtk' 'libgexiv2-git' 'libraw' 'rest'
 	 'desktop-file-utils' 'dconf' 'hicolor-icon-theme' 'json-glib'
 	 'gst-plugins-base' 'libgphoto2' 'libgudev'
 	 'gcr' 'libgdata' 'opencv')
-makedepends=('intltool' 'vala>=0.17.2' 'gnome-doc-utils' 'itstool')
+makedepends=('intltool' 'vala>=0.17.2' 'gnome-doc-utils' 'itstool' 'meson' 'ninja')
 conflicts=(shotwell)
 source=("$_pkgname"::'git+https://gitlab.gnome.org/GNOME/shotwell.git')
 sha256sums=('SKIP')
